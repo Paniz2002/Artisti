@@ -1,0 +1,30 @@
+html,body {
+    font-family: 'Raleway', sans-serif;
+color:white;
+border-bottom:none;
+background-color:rgba(255, 105, 180);
+text-align:center;
+}
+h1,h2 {
+font-weight: 200;
+margin: 0.4em 0;
+}
+h1 { font-size:120px; }
+h2 {
+color: blueviolet;
+font-size: 20px;
+}
+.btn-primary {
+color: #fff;
+background-color: blueviolet;
+border-color: blueviolet; 
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+color: #fff;
+background-color: rgb(106, 43, 165);
+border-color: rgb(106, 43, 165);
+box-shadow:none !important;
+}
+.btn-primary:focus{
+background-color: rgb(106, 43, 165)!important;
+}

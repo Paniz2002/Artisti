@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color:rgba(255, 105, 180, 0.274);
+}
+#post{
+  text-align: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+}
+
+#showpost{
+  background-color:rgb(255, 255, 255); 
+}
+#postborder{
+  border:1px solid black;
+}
+#profilephoto{
+  width:10%;
+  height:10%;
+}
+
+.jumbotron{
+  background-color:transparent;
+}
+.autocomplete {
+  position: relative;
+  display: inline-block;
+}
+
+.autocomplete-items {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  top: 100%;
+  left: 0;
+  right: 0;
+}
+.autocomplete-items div {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #fff; 
+  border-bottom: 1px solid #d4d4d4; 
+}
+.autocomplete-items div:hover {
+  background-color: #e9e9e9; 
+}
+.autocomplete-active {
+  background-color: blueviolet !important; 
+  color: #ffffff; 
+}
+.form-control {
+  border-right: 0;
+}
+.btn-primary {
+  color: #fff;
+  background-color: blueviolet;
+  border-color: rgb(0, 0, 0); 
+}
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: rgb(106, 43, 165);
+  border-color: rgb(0, 0, 0);
+  box-shadow:none !important;
+  
+}
+.btn-primary:focus{
+  background-color: rgb(106, 43, 165)!important;
+}
+.btn-primary.active{
+  background-color: hotpink!important;
+  border-color:rgb(0, 0, 0) !important;
+}
+.btn-delete {
+  color: #fff;
+  background-color:crimson;
+  border-color: crimson; 
+}
+.btn-delete:hover, .btn-delete:active, .btn-delete.active, .open>.dropdown-toggle.btn-delete {
+  color: #fff;
+  background-color: rgb(184, 15, 49);
+  border-color: rgb(184, 15, 49);
+  box-shadow:none !important;
+  
+}
+.btn-delete:focus{
+  background-color:rgb(133, 11, 35)!important;
+}
+.btn-success {
+  color: black;
+  background-color: rgb(211, 207, 207);
+  border-color: black; 
+}
+.btn-success:hover, .btn-success.active, .open>.dropdown-toggle.btn-success {
+  color: black;
+  background-color: rgb(156, 153, 158);
+  border-color: rgb(0, 0, 0);
+  box-shadow:none !important;
+}
+.btn-success:focus{
+  background-color: rgb(156, 153, 158)!important;
+}
+video{
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:-100;
+	visibility: visible;
+  object-fit: fill;
+}
+#registrazione{
+  background-color:rgba(143, 142, 142, 0.3);
+ 
+}
+#font {
+  font-family: 'Cairo', sans-serif;
+}
+#fontnotsized {
+  font-family: 'Cairo', sans-serif;
+}
+input{
+  font-size:2px;
+}
+#titolo{
+  font-family: 'Indie Flower', cursive;
+  color:blueviolet;
+  font-size:100px;
+  border-bottom:none;
+}
+.imgpost{
+  object-fit: cover;
+  min-width:90%;
+  max-width:100%;
+}
+audio{
+  height:150px;
+  width: 90%;
+  
+}
+.checkbox{
+  height:30px;
+  width:30px;
+}
+.invia{
+  background-color:blueviolet;
+  width:60%;
+  color:white;
+  padding:10px;
+  margin-left:40%;
+}
+.riceve{
+  background-color:hotpink;
+  width:60%;
+  color:white;
+  padding:10px;
+}
+.overflow{
+  overflow-y: scroll;
+}
+#showchat{
+  background-color:white;
+  border-color:black;
+  padding:10px;
+}
